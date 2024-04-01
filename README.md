@@ -24,12 +24,14 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-<html>
+'''
+
+    <html>
     <head>
         <title> Slot timing</title>
     </head>
     <body>
-<center><img src="/static/logo.png" height="300" width="800"></body></html></center>
+     <center><img src="/static/logo.png" height="300" width="800"></body></html></center>
         <center><h1>TIME TABLE</h1></center>
         <br>
         <table bgcolor="black"
@@ -102,8 +104,8 @@ Execute the program using runserver command.
             <TH>FREE SLOT</TH>
         </tr>
     </table>
-    
-    <center><h1>SUBJECTS</h1></center>
+
+        <center><h1>SUBJECTS</h1></center>
     <table bgcolor="cyan"
         border="10" 
         align="center">
@@ -172,8 +174,10 @@ Execute the program using runserver command.
         </tr>
 
     </table>
+   
     </body>
-</html>
+
+    </html>
 
 ## OUTPUT
 ![WhatsApp Image 2024-04-01 at 08 09 24_3858731b](https://github.com/KiranbalajiH/slot2/assets/149135475/10f816ae-ecf4-41f8-807e-e350b9eafadb)
